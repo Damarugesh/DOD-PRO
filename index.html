@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Drone Organ Transport</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Drone Organ Transport Tracker</h1>
+      <p>Track your organ delivery in real-time!</p>
+    </header>
+
+    <section class="status">
+      <h2>Current Drone Status</h2>
+      <p id="status">Waiting for delivery...</p>
+      <div id="drone-location">
+        <p>Current Location: <span id="location">N/A</span></p>
+        <p>Time Remaining: <span id="time">N/A</span></p>
+      </div>
+    </section>
+
+    <button id="startDelivery" onclick="startDelivery()">Start Delivery</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
